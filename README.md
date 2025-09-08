@@ -67,6 +67,38 @@ Extend with GRU and compare vs LSTM.
 Replace embedding with pre-trained word vectors.
 Showcase RNN → LSTM → Transformer evolution.
 
+
+## 📊 Model Comparison Results
+
+Berikut hasil training 4 arsitektur pada dataset IMDB Reviews (3 epochs):
+
+### Accuracy
+- **BiLSTM**  
+  ![Accuracy — bilstm](figs/bilstm_acc_20250908_223229.png)
+
+- **BiGRU**  
+  ![Accuracy — bigru](figs/bigru_acc_20250908_223655.png)
+
+- **Conv1D**  
+  ![Accuracy — conv1d](figs/conv1d_acc_20250908_223744.png)
+
+- **Flatten**  
+  ![Accuracy — flatten](figs/flatten_acc_20250908_222954.png)
+
+### Loss
+- **BiLSTM**  
+  ![Loss — bilstm](figs/bilstm_loss_20250908_223229.png)
+
+- **BiGRU**  
+  ![Loss — bigru](figs/bigru_loss_20250908_223655.png)
+
+- **Conv1D**  
+  ![Loss — conv1d](figs/conv1d_loss_20250908_223744.png)
+
+- **Flatten**  
+  ![Loss — flatten](figs/flatten_loss_20250908_222954.png)
+
+
 🔧 How to Run
 git clone https://github.com/milzon1010>/Multiple_LSTMs_IMDB.git
 cd Multiple_LSTMs_IMDB
