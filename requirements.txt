@@ -1,0 +1,5 @@
+tensorflow>=2.16.0
+tensorflow-datasets>=4.9.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+keras-nlp>=0.8.0

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & artifacts
+*.h5
+*.keras
+models/
+checkpoints/
+*.pt
+*.onnx
+metrics*.txt
+
+# TensorFlow datasets cache
+tensorflow_datasets/
+~/.tensorflow_datasets/
